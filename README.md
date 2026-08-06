@@ -34,7 +34,12 @@ without modification. Those paths reject non-standard keys with a hard error.
 
 ## Writing your own
 
-See [template/](template) for a starter `SKILL.md` and the authoring rules these skills follow.
+See [template/](template) for a starter file and the authoring rules these skills follow.
+
+Copy [template/skill-template.md](template/skill-template.md) to
+`skills/<your-skill-name>/SKILL.md` and fill it in. It is deliberately **not** named `SKILL.md` —
+skill registries and agent runtimes glob the repository for that exact filename, and a template
+sitting at that path gets picked up and published as a real skill.
 
 ## Security
 

@@ -10,6 +10,11 @@ metadata:
 
 # Your Skill Name
 
+> Starter template. Copy this file to `skills/<your-skill-name>/SKILL.md`, then delete this
+> blockquote. Keep the original named `skill-template.md` — registries and agent runtimes glob the
+> repository for the exact filename `SKILL.md`, so a template sitting at that path gets imported and
+> published as if it were a real skill. See [AUTHORING.md](AUTHORING.md) for the rules.
+
 One or two lines on what this skill makes the agent do. No preamble about why the topic matters.
 
 ## Operating rules
