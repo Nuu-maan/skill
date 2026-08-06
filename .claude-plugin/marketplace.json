@@ -1,0 +1,33 @@
+{
+  "name": "qala",
+  "owner": {
+    "name": "nuu-maan",
+    "url": "https://github.com/Nuu-maan"
+  },
+  "metadata": {
+    "description": "Agent Skills by nuu-maan. Also at https://qala.lol",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "qala",
+      "source": "./",
+      "description": "Agent Skills collection. Includes backend-hardening: audits a backend or API for security vulnerabilities, stability bugs, and design flaws, then fixes them on request.",
+      "version": "1.0.0",
+      "author": {
+        "name": "nuu-maan",
+        "url": "https://github.com/Nuu-maan"
+      },
+      "homepage": "https://qala.lol",
+      "license": "MIT",
+      "keywords": [
+        "backend",
+        "security",
+        "audit",
+        "code-review",
+        "api",
+        "vulnerabilities"
+      ]
+    }
+  ]
+}
