@@ -12,11 +12,13 @@ supports the format.
 | Skill | What it does |
 | :--- | :--- |
 | [backend-hardening](skills/backend-hardening) | Audits a backend or API for security vulnerabilities, stability bugs, and design flaws, explains each one in plain language, then fixes them on request. Any language or framework. |
+| [database-design](skills/database-design) | Reviews a database for schema, indexing, query, and migration-safety problems and fixes them on request — or designs a new schema from scratch. Postgres, MySQL, SQLite, MongoDB. |
 
 ## Install
 
 ```bash
-npx skills add https://qala.lol/nuu-maan/backend-hardening
+npx skills add https://qala.lol/numan/backend-hardening
+npx skills add https://qala.lol/numan/database-design
 ```
 
 Or install the whole collection in Claude Code as a plugin:
