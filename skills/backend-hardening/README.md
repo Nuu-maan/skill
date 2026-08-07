@@ -28,7 +28,7 @@ and Supabase/Firebase/Appwrite/PocketBase.
 ## Install
 
 ```bash
-npx skills add https://qala.lol/nuu-maan/backend-hardening
+npx skills add https://qala.lol/numan/backend-hardening
 ```
 
 Works in any agent that supports the [Agent Skills standard](https://agentskills.io) — Claude Code,
