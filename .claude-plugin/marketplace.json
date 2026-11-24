@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Agent Skills by nuu-maan. Also at https://qala.lol",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "qala",
       "source": "./",
-      "description": "Agent Skills collection. backend-hardening audits a backend or API for security vulnerabilities, stability bugs, and design flaws. database-design reviews schemas, indexes, queries and migrations, or designs a new schema from scratch. Both explain findings in plain language and fix them on request.",
-      "version": "1.1.0",
+      "description": "Agent Skills collection. backend-hardening audits a backend or API for security vulnerabilities, stability bugs, and design flaws. database-design reviews schemas, indexes, queries and migrations, or designs a new schema from scratch. not-a-demo makes AI-built web apps look designed and behave like shipped software. The review skills explain findings in plain language and fix them on request.",
+      "version": "1.2.0",
       "author": {
         "name": "nuu-maan",
         "url": "https://github.com/Nuu-maan"
@@ -32,7 +32,13 @@
         "sql",
         "postgres",
         "migrations",
-        "indexes"
+        "indexes",
+        "frontend",
+        "ui",
+        "ux",
+        "design",
+        "ai-slop",
+        "saas"
       ]
     }
   ]
