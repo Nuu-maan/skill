@@ -18,6 +18,7 @@ A demo looks finished in a screenshot. A real app survives use: slow networks, e
 - **Always**: the rules below. Every app, every screen.
 - **When it applies**: the screen has the thing (a list, a form, uploads, payments, an AI feature). Read the matching reference.
 - **Only when asked or at scale**: growth features (referrals, onboarding questions, plan badges) and infra (Redis, load balancing, tracing). Suggest them; don't add them unasked. A todo app needs no audit log.
+- **Ask before touching live systems**: edit code and config files in the repo freely, but propose changes to production settings, hosting headers, database policies, storage buckets or CI, and apply them only with the user's approval.
 - **The project wins**: if the app already has a design system, tokens, components or conventions, use them. The user's explicit instructions beat every default here.
 
 ## Step 1: decide the design before writing UI

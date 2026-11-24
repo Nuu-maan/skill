@@ -2,6 +2,8 @@
 
 Tiers: **Always** = any app with a server, login or user data. **When** = only if the feature exists. **Scale** = once there's real traffic, money or a team.
 
+Write these defenses into the code and repo config. Changes to a live system (production headers, database policies, bucket privacy, CI settings) are proposed to the user and applied only with their approval.
+
 Most breaches of AI-built apps aren't clever attacks. They come from Supabase tables with RLS off, secret keys shipped in the JS bundle, auth checked only in middleware or the UI, and records anyone can read by changing an ID. Check those first.
 
 ## Contents
