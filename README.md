@@ -1,6 +1,6 @@
 # skills
 
-Agent Skills by [@Nuu-maan](https://github.com/Nuu-maan). Also on [qala.lol](https://qala.lol).
+Agent Skills by [@Nuu-maan](https://github.com/Nuu-maan). Also on [qala.lol](https://qala.lol) and [skills.sh](https://skills.sh/nuu-maan/skill).
 
 Each skill is a folder with a `SKILL.md`, following the open
 [Agent Skills](https://agentskills.io) standard. They work in Claude Code, claude.ai, the Claude API,
@@ -21,6 +21,14 @@ supports the format.
 npx skills add https://qala.lol/numan/backend-hardening
 npx skills add https://qala.lol/numan/database-design
 npx skills add https://qala.lol/numan/not-a-demo
+```
+
+Or straight from GitHub, which also lists them on [skills.sh](https://skills.sh/nuu-maan/skill):
+
+```bash
+npx skills add Nuu-maan/skill                         # pick from all skills
+npx skills add Nuu-maan/skill --skill not-a-demo      # one skill
+npx skills add Nuu-maan/skill --list                  # see what's available
 ```
 
 Or install the whole collection in Claude Code as a plugin:
