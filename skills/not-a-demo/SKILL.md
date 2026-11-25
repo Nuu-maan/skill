@@ -97,14 +97,16 @@ These are the most-reported AI tells. Use the replacement; don't just dodge the 
 | Gradient text, glows, colored shadows | Solid text; emphasis by size or weight |
 | Three identical icon-topped feature cards, four identical KPI cards | One dominant item, the rest smaller; icons beside headings, not in tiles above |
 | Cards on everything, cards inside cards | Group with spacing, background steps and dividers |
-| All-caps tracked label above every heading, "→" on every button, a badge above the H1 | A plain sentence-case heading |
+| All-caps tracked label above every heading, "→" on every button, a "New" pill above the H1, numbered sections (01 / 02 / 03) | A plain sentence-case heading |
+| Middle dots between words ("Fast · Private · Open") | One sentence that says it, or a real list |
+| Blurred glow blobs behind the hero, dithering, visible noise | A flat or one-hue background; grain only to stop banding |
 | `border-l-4` accent stripe on cards | Nothing, unless it encodes status |
 | Emoji as icons | One icon set, one stroke width |
-| Fade-up on every section, `hover:scale` on cards, `transition-all`, pulsing dots | No motion, or one purposeful moment |
+| Fade-up on every section, `hover:scale` on cards, `transition-all`, pulsing green "live" dots | No motion, or one purposeful moment |
 | "Unlock / Empower / Supercharge / Seamless", "It's not just X, it's Y" | What it does, concretely, with a number if you have one |
 | Full-page spinner, "No data", "Something went wrong" | Skeleton; explanation + action; what failed + Retry |
 | `alert()` / `confirm()` | Your own dialog or toast |
-| Swapping one cliché for another (cream + serif + terracotta, black + acid green) | The direction in DESIGN.md |
+| Swapping one cliché for another: cream backgrounds, Instrument Serif, one italic word in the headline, black + acid green | The direction in DESIGN.md |
 
 ## Before calling it done
 

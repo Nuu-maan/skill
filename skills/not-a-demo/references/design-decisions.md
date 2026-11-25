@@ -47,7 +47,7 @@ Signature: <the one memorable detail; spend boldness here and nowhere else>
 ## Don't swap one cliché for another
 
 Anti-slop prompts produce their own look. Avoid these unless the brand asks for them:
-- warm cream background + serif display + terracotta accent
+- warm cream background, alone or with a serif display and a terracotta accent
 - near-black background + acid-green accent
 - one italic serif word inside a sans-serif headline
 - zero-radius "editorial broadsheet" layouts
