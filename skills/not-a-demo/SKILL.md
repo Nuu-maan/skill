@@ -4,7 +4,7 @@ description: Makes AI-built web apps look designed and behave like shipped softw
 license: MIT
 compatibility: Works in any agent that can read and edit project files. The optional checks in references/slop-check.md use ripgrep (rg) in bash or zsh.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   author: nuu-maan
   homepage: https://qala.lol
 ---
