@@ -21,6 +21,11 @@ s 'uppercase[^"]*tracking-(wide|wider|widest)'    # eyebrow labels
 s '\p{Extended_Pictographic}'                     # emoji in UI
 s -c 'shadow-(xl|2xl)|rounded-(2xl|3xl)'          # card reflex: high counts are a smell
 s -c '\[[0-9]+px\]|#[0-9a-fA-F]{6}\b'             # one-off values outside the theme
+s '\w (·|•|&middot;|&bull;) \w'                   # middle dots between words
+s '>\s*0[1-9]\s*[<./]'                            # numbered sections (01, 02)
+s '<h[1-3][^>]*>[^<]*<(em|i)\b'                   # one italic word in a headline
+s -i 'instrument[ _+-]?serif|dither'              # cliché font (fine if DESIGN.md chose it), dithering
+s 'blur-(2xl|3xl)|blur\(([4-9][0-9]|[1-9][0-9]{2})px\)'   # glow blobs
 ```
 
 ## Copy tells
@@ -28,6 +33,7 @@ s -c '\[[0-9]+px\]|#[0-9a-fA-F]{6}\b'             # one-off values outside the t
 ```sh
 s -i '\b(unlock|unleash|empower|supercharge|elevate|revolutioni[sz]e|seamless(ly)?|cutting-edge|next-gen(eration)?|world-class|game-chang|delve|leverage)\b'
 s -i 'lorem ipsum|john doe|jane doe|coming soon|placeholder text'
+s -i '>[^<{]*\b(quiet(ly)?|real)\b'               # "quiet" and "real" in visible text; check copy files too
 s -i 'oops|something went wrong|are you sure\?|invalid (input|email|value)|this field is required'
 s '\b(window\.)?(alert|confirm|prompt)\('
 s '>\s*(Submit|OK|Click here)\s*<'

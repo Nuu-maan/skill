@@ -39,6 +39,7 @@ Where the rules come from. Agents don't need this file. Items marked *(unverifie
 - Matt Ström, UI density: https://mattstromawn.com/writing/ui-density/
 - Inter dynamic metrics (v3 archive; the letter-spacing values in visual-design.md are rounded from its formula): https://d.rsms.me/inter-website/v3/dynmetrics/
 - Lucide icon design guide: https://lucide.dev/guide/design/icon-design-guide
+- Jimmy Chen, grainy gradients: https://css-tricks.com/grainy-gradients/
 
 ## Motion and interaction
 
@@ -57,6 +58,7 @@ Where the rules come from. Agents don't need this file. Items marked *(unverifie
 - React Aria, pointer-friendly submenus: https://react-aria.adobe.com/blog/creating-a-pointer-friendly-submenu-experience
 - Linear, invisible details: https://linear.app/now/invisible-details
 - Atlassian, drag and drop guidelines: https://atlassian.design/components/pragmatic-drag-and-drop/design-guidelines
+- MDN, interpolate-size: https://developer.mozilla.org/en-US/docs/Web/CSS/interpolate-size
 - GitHub Primer, toasts: https://primer.style/accessibility/toasts
 
 ## Product craft and writing
@@ -76,6 +78,8 @@ Where the rules come from. Agents don't need this file. Items marked *(unverifie
 - Mailchimp Content Style Guide: https://styleguide.mailchimp.com/
 - Shopify, app content guidelines: https://shopify.dev/docs/apps/design/content
 - Nielsen Norman Group, confirmation dialogs: https://www.nngroup.com/articles/confirmation-dialog/
+- Jon Yablonski, Laws of UX: https://lawsofux.com/
+- Nielsen Norman Group, banner blindness: https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/
 - Wikipedia, signs of AI writing: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 - Harry Dry, rules of copy *(via Demand Curve)*: https://gp.demandcurve.com/lessons/fundamental-rules-of-good-copy
 
