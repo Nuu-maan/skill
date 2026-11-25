@@ -28,7 +28,10 @@ AI copy is easy to spot: hype verbs, three-beat slogans, vague claims, cute erro
 |---|---|
 | Unlock, Unleash, Empower, Supercharge, Elevate, Revolutionize | The mechanism + outcome: "Send invoices and get paid by card" |
 | "The AI-powered X for modern Y" | The outcome for a named buyer: "Payroll for restaurants with hourly staff" |
-| "Save time. Work smarter. Scale faster." | One specific claim, ideally with a number |
+| "Save time. Work smarter. Scale faster.", two-word sentences ("Fast. Private. Yours.") | One full sentence with one specific claim, ideally with a number |
+| "quiet" ("a quiet tool", "quiet confidence") | The behavior it stands for: "No notifications unless someone mentions you" |
+| "real" ("real results", "built for real teams") | Drop the word; if the claim needs proof, give it: "Used by 40 clinics" |
+| Middle dots between words: "Fast · Private · Open source" | A sentence, or a real list |
 | "It's not just X, it's Y" / "No X. No Y. Just Z." | Just say Y |
 | Seamless, robust, cutting-edge, world-class, next-generation | A fact someone could check |
 | delve, leverage, foster, tapestry, pivotal, crucial, showcase | Plain verbs: use, build, show, important |

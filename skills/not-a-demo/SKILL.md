@@ -103,7 +103,7 @@ These are the most-reported AI tells. Use the replacement; don't just dodge the 
 | `border-l-4` accent stripe on cards | Nothing, unless it encodes status |
 | Emoji as icons | One icon set, one stroke width |
 | Fade-up on every section, `hover:scale` on cards, `transition-all`, pulsing green "live" dots | No motion, or one purposeful moment |
-| "Unlock / Empower / Supercharge / Seamless", "It's not just X, it's Y" | What it does, concretely, with a number if you have one |
+| "Unlock / Empower / Supercharge / Seamless", "quiet", "real", "It's not just X, it's Y", two-word sentences | What it does, concretely, with a number if you have one |
 | Full-page spinner, "No data", "Something went wrong" | Skeleton; explanation + action; what failed + Retry |
 | `alert()` / `confirm()` | Your own dialog or toast |
 | Swapping one cliché for another: cream backgrounds, Instrument Serif, one italic word in the headline, black + acid green | The direction in DESIGN.md |
