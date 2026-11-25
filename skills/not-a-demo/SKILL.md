@@ -76,7 +76,7 @@ Check every screen against it. Ban lists alone breed new clichés; a written dir
 |---|---|
 | A new app, a new screen type or a restyle | [design-decisions.md](references/design-decisions.md), [visual-design.md](references/visual-design.md) |
 | Animation, hover, menus, dialogs, toasts, drag, focus | [motion.md](references/motion.md) |
-| Lists, tables, search, filters, bulk actions, forms, autosave, shortcuts, command palette, sidebar, plans, onboarding | [ux-patterns.md](references/ux-patterns.md) |
+| Lists, tables, search, filters, bulk actions, forms, autosave, shortcuts, command palette, sidebar, plans, onboarding, pricing, or a layout or flow decision (UX laws) | [ux-patterns.md](references/ux-patterns.md) |
 | Any user-facing text: buttons, errors, empty states, emails, landing copy | [ux-writing.md](references/ux-writing.md) |
 | Login, accounts, settings, billing, email, dates, backups, launch metadata | [saas-essentials.md](references/saas-essentials.md) |
 | A server, login, uploads, webhooks, URL fetching, AI features | [security.md](references/security.md) |

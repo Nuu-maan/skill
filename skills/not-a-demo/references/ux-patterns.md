@@ -84,3 +84,23 @@ Each pattern: when to use it, how real apps do it, and the usual AI mistake.
 ## Graceful error recovery
 - **Do**: say what failed in plain words ("Couldn't save changes"), keep the user's input, give a Retry button. Auto-retry idempotent reads with backoff. Show a banner when offline. When the session expires, ask the user to sign in again without losing the page. Use error boundaries so one broken widget doesn't blank the page.
 - **Mistake**: a raw stack trace or a blank screen.
+
+## UX laws, applied
+
+Use these to settle layout and flow questions. Each is a decision, not a slide.
+
+- **Pareto**: most use comes from a few features. Put those on the main screen; the rest go in menus, settings or the command palette.
+- **Similarity**: things that look alike seem to do the same thing. Same action, same style everywhere. Links look different from text, buttons different from tags.
+- **Common region**: a shared background or border makes a group. Use it for real groups only, not to put everything in cards.
+- **Prägnanz**: people see the simplest shape. Plain icons and layouts; nothing that has to be decoded.
+- **Uniform connectedness**: lines and shared containers show what belongs together. Connect stepper steps, keep a toolbar touching what it edits.
+- **Occam's razor**: of two designs that work, ship the one with fewer parts. Remove before adding.
+- **Banner blindness**: people skip anything shaped like an ad: top banners, bright boxes, sidebar promos. Put important messages inline, next to what they're about.
+- **Recognition over recall**: show options instead of making people remember them: recent items, visible filters, autocomplete, shortcuts printed in menus.
+- **Mental models**: people expect your app to work like the ones they already use. The logo goes home, Cmd/Ctrl+K searches, settings sit under the avatar. Break a convention only for an obvious gain.
+- **Paradox of the active user**: nobody reads instructions first. No upfront tours; help goes where it's needed: inline hints, empty states, good defaults.
+- **Parkinson's law**: a task expands to fill the time it's given. Cut steps and fields, prefill what you know, so the task ends before attention does.
+- **Default effect**: most people never change the default. Make it the best choice for most users and the safe one: private, few notifications, the smallest plan that fits.
+- **Anchoring**: the first number sets the bar. Show the full price beside the discount, the yearly saving beside the monthly price, only when both are true. Never invent a "was" price.
+- **Loss aversion**: losing hurts about twice as much as gaining feels good. Say what a downgrade or deletion removes ("You'll lose 12 projects"). Never guilt-trip a cancel flow ("No, I don't like saving money").
+- **Social proof**: people do what they see others doing. Real counts, named customers and actual reviews only; nothing invented.
