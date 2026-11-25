@@ -29,12 +29,12 @@ Most "anti-slop" skills fix how a landing page looks. This one covers the whole 
 
 | Area | Examples |
 | :--- | :--- |
-| Design direction | The `DESIGN.md` template, choosing an accent and a tinted neutral, picking layouts by job (triage, create, set up, decide, monitor), defaults when there's no brand, and the second-wave clichés to avoid (cream + serif + terracotta) |
-| Visual design | 12-step color scales in OKLCH, 4px spacing, about four type sizes per screen, letter-spacing by size, layered shadows, radius sets, dark mode elevation, icons, KPI tiles that aren't four identical cards |
-| Motion | When not to animate, durations per element, easing curves, entering from 0.95 not 0, interruptible transitions, reduced motion, hover only on real pointers |
+| Design direction | The `DESIGN.md` template, choosing an accent and a tinted neutral, picking layouts by job (triage, create, set up, decide, monitor), defaults when there's no brand, and the second-wave clichés to avoid (cream backgrounds, Instrument Serif, one italic word in the headline) |
+| Visual design | 12-step color scales in OKLCH, 4px spacing, about four type sizes per screen, letter-spacing by size, layered shadows, radius sets, dark mode elevation and muted colors, grain on gradients, baseline alignment, Delete kept away from Save, icons, KPI tiles that aren't four identical cards |
+| Motion | When not to animate, durations per element, easing curves, entering from 0.95 not 0, steps that slide the way you're going, animating to `height: auto`, rubber-band drag, springs that keep your flick's speed, error shakes, reduced motion, hover only on real pointers |
 | Interaction | Focus rings, menu and dialog keyboard behavior, tooltip delays, toast timing, drag and drop, hit areas, loading indicators that don't flash |
-| UX patterns | Optimistic UI, skeletons, command palette, sidebar, empty states, autosave, debounce, validation, bulk actions, data tables, filters in the URL, shortcuts, plan limits, destructive-action tiers, error recovery |
-| UX writing | Verb + object buttons, errors that say how to fix it, confirmations that name the thing, sentence case, and a table of AI-copy tells with what to write instead |
+| UX patterns | Optimistic UI, skeletons, command palette, sidebar, empty states, autosave, debounce, validation, bulk actions, data tables, filters in the URL, shortcuts, plan limits, destructive-action tiers, error recovery, and 15 UX laws (Pareto to social proof) turned into layout decisions |
+| UX writing | Verb + object buttons, errors that say how to fix it, confirmations that name the thing, sentence case, and a table of AI-copy tells with what to write instead (including "quiet", "real" and two-word sentences) |
 | Security | Ownership checks in every handler, secrets behind `NEXT_PUBLIC_`/`VITE_`, Supabase RLS and Firebase rules, mass assignment, injection, XSS, CSRF, CORS, a starter CSP and header set, uploads, SSRF, webhooks, slopsquatting, prompt injection and AI cost abuse |
 | SaaS essentials | The full auth flow, password reset done right, email scanners that burn magic links, account deletion, billing webhooks and failed payments, money as integers, time zones, backups you've restored, safe migrations, favicons, Open Graph, legal pages |
 | Frontend | Prefetch on intent, instant route shells, back/forward cache, scroll restoration, URL as state, surviving deploys, offline, forms that work before hydration, a CSS baseline, hydration bugs |
