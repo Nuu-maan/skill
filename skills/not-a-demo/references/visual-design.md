@@ -47,6 +47,21 @@
 - Shadows: one light source from above, two or more layers (ambient + direct), blur about twice the y-offset, low opacity. Higher elevation means bigger offset and blur, lower opacity. Example: `0 1px 2px rgb(0 0 0 / .06), 0 4px 12px rgb(0 0 0 / .06)`.
 - Radius: a small set tied to size (controls 6px, cards/menus/modals 12px). Nested corners: inner radius = outer radius - gap.
 
+## Gradients
+
+- Only a subtle shift within one hue. Add grain so it doesn't band or look cheap: SVG `feTurbulence` noise on a `::after`, blended with `overlay` at 15-50% opacity.
+
+```css
+.gradient { position: relative; isolation: isolate; }
+.gradient::after {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  mix-blend-mode: overlay; opacity: .25;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+```
+
+- Grain should be felt, not seen. Visible noise, dithered pixel patterns and blurred color blobs are the opposite: decoration that reads as AI.
+
 ## Dark mode
 
 - Show elevation with lighter surfaces, not shadows. The base isn't pure black: tint it toward the accent, e.g. `oklch(16% 0.01 <accent hue>)`.
